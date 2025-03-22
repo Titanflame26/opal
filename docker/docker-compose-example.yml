@@ -37,7 +37,7 @@ services:
       - OPAL_LOG_FORMAT_INCLUDE_PID=true
     ports:
       # exposes opal server on the host machine, you can access the server at: http://localhost:7002
-      - "7002:7002"
+      - "7070:7002"
     depends_on:
       - broadcast_channel
   opal_client:
